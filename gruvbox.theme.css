@@ -84,24 +84,24 @@ body {
 
 /* color options */
 :root {
-    --colors: on; /* off: discord default colors, on: gruvbox custom colors */
+    --colors: on; /* off: discord default colors, on: gruvbox dark material custom colors */
 
     /* text colors */
     --text-0: var(--bg-4); /* text on colored elements */
-    --text-1: #ebdbb2; /* other normally white text */
+    --text-1: #ddc7a1; /* other normally white text */
     --text-2: #d4be98; /* headings and important text */
     --text-3: #d4be98; /* normal text */
     --text-4: #a89984; /* icon buttons and channels */
-    --text-5: #7c6f64; /* muted channels/chats and timestamps */
+    --text-5: #665c54; /* muted channels/chats and timestamps */
 
     /* background and dark colors */
-    --bg-1: #504945; /* dark buttons when clicked */
-    --bg-2: #3c3836; /* dark buttons */
-    --bg-3: #32302f; /* spacing, secondary elements */
-    --bg-4: #282828; /* main background color */
+    --bg-1: #3c3836; /* dark buttons when clicked */
+    --bg-2: #32302f; /* dark buttons */
+    --bg-3: #282828; /* spacing, secondary elements */
+    --bg-4: #1d2021; /* main background color */
     --hover: var(--bg-2); /* channels and buttons when hovered */
     --active: var(--bg-1); /* channels and buttons when clicked or selected */
-    --active-2: #665c54; /* extra state for transparent buttons */
+    --active-2: #504945; /* extra state for transparent buttons */
     --message-hover: var(--hover); /* messages when hovered */
 
     /* accent colors */
@@ -134,29 +134,29 @@ body {
     --red-2: var(--red-1);
     --red-3: var(--red-1);
     --red-4: #ea6962;
-    --red-5: #3c3836;
+    --red-5: #32302f;
 
     --green-1: #a9b665;
     --green-2: var(--green-1);
     --green-3: var(--green-1);
     --green-4: #a9b665;
-    --green-5: #504945;
+    --green-5: #3c3836;
 
     --blue-1: #7daea3;
     --blue-2: var(--blue-1);
     --blue-3: var(--blue-1);
     --blue-4: #7daea3;
-    --blue-5: #504945;
+    --blue-5: #3c3836;
 
     --yellow-1: #d8a657;
     --yellow-2: var(--yellow-1);
     --yellow-3: var(--yellow-1);
     --yellow-4: #d8a657;
-    --yellow-5: #504945;
+    --yellow-5: #3c3836;
 
     --purple-1: #d3869b;
     --purple-2: var(--purple-1);
     --purple-3: var(--purple-1);
     --purple-4: #b16286;
-    --purple-5: #3c3836;
+    --purple-5: #32302f;
 }
